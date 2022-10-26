@@ -59,3 +59,11 @@ numArray.forEach((sk, i, arr) => {
 console.log("numArray ===", numArray);
 
 // paskaiciuoti numArray masyvo vidurki
+
+let suma = 0;
+
+numArray.forEach(function (sk) {
+  suma += sk;
+});
+let average = suma / numArray.length;
+console.log(average);
