@@ -66,4 +66,4 @@ numArray.forEach(function (sk) {
   suma += sk;
 });
 let average = suma / numArray.length;
-console.log(average);
+console.log(+average.toFixed(2));
